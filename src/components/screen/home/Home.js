@@ -8,11 +8,12 @@ import { TagLine } from './TagLine'
 export const Home = () => {
     return (
         <div>
-            <TagLine />
-            <Feature />
+            <Clients />
+            {/* <TagLine /> */}
+            {/* <Feature /> */}
             <About />
             <Service />
-            <Clients />
+            
         </div>
     )
 }
